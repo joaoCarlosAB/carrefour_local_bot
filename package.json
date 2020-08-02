@@ -4,7 +4,7 @@
   "description": "Bot para se comunicar com a api do carrefour",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "João Carlos Borges",
   "license": "ISC",
