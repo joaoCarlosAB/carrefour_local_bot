@@ -14,6 +14,7 @@ bot.on("message", async (msg) => {
         if(res.hasOwnProperty("statusCode")){
             bot.sendMessage(chatId, "Poxa, infelizmente teve um erro no servidor😪. Pode mandar a localização novamente por favor😁")
         }else if(res.location.distance <= 15.00){
+            bot.sendMessage(chatId, "Essa é a localização do Carrefour mais próximo da você 🗺📌")
             bot.sendLocation(
                 chatId,
                 latitude = res.location.latitude,
@@ -21,7 +22,7 @@ bot.on("message", async (msg) => {
             )
             bot.sendMessage(chatId, `🏪 Carrefour ${res.name}\n📞 Telefone: ${res.phone_number}\n✅ Aberto até as ${res.worktime[0].close_time}🕙\nVocê pode fazer compras pelo nosso site tbm https://www.carrefour.com.br/`)
         }else{
-            bot.sendMessage(chatId, "Infelizmente não temos nenhum Carrefour próximo da sua localização atual🙇‍♂️, Você pode comprar o que precisa pelo nosso site https://www.carrefour.com.br/")
+            bot.sendMessage(chatId, "Infelizmente não temos nenhum Carrefour aberto próximo da sua localização atual🙇‍♂️, Você pode comprar o que precisa pelo nosso site https://www.carrefour.com.br/")
         }
     }else{
         const res = await dialogFlow.sendMessage(chatId.toString(), msg.text)
