@@ -57,7 +57,7 @@ Pronto o seu bot está em execução!!!
 
 ### 1. Quando o bot encontra um carrefour aberto próximo da sua localização
 
-![picasion com_b8966991382635a538d2ebcad8166af3](https://user-images.githubusercontent.com/66270338/89128316-463bdf80-d4cb-11ea-9497-1acea0ea6154.gif)
+![picasion com_dfb039a683da4197b4b6807f6abbec29](https://user-images.githubusercontent.com/66270338/89129670-74beb800-d4d5-11ea-88ec-50dbaad63dd7.gif)
 
 ### 2. Quando o bot não acha nenhum carrefour aberto próximo da sua localização
 
