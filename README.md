@@ -6,3 +6,20 @@
 
 ### Pré-requisitos
 
+#### Node
+
+- [Node 12 LTS](https://nodejs.org/en/download/)
+
+#### Bot Telegram
+
+- [Bot Telegram](https://core.telegram.org/bots)
+
+#### DialogFlow
+
+- [DialogFlow](https://dialogflow.cloud.google.com/)
+
+#### Api Carrefour
+
+- [Api Carrefour](https://dev.carrefour.com.br/node/107)
+
+#### 1. Clone o repositório
