@@ -24,7 +24,7 @@
 
 #### 1. Clone o repositório
 ````
-https://github.com/joaoCarlosAB/carrefour_local_bot.git
+git clone https://github.com/joaoCarlosAB/carrefour_local_bot.git
 ````
 
 #### 2. Instalar dependências
@@ -44,3 +44,11 @@ npm install
 No fim da da configuração o seu arquivo .env deve está assim:
 
 ![envarquivo](https://user-images.githubusercontent.com/66270338/89125442-ec301f80-d4b4-11ea-8469-3a43a96e1fc2.PNG)
+
+#### 4. Inicializar o bot
+
+````
+npm start
+````
+
+Pronto o seu bot está iniciado!!!
