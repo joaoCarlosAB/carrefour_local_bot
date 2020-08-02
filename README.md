@@ -1,5 +1,5 @@
 # Carrefour Local 🗺📌
-  O carrefour local é um bot do telegram que a partir do compartilhamento da localização do usuário, o mesmo retorna o carrefour aberto mais próximo da sua localização atual em um raio de até 15 km. O bot foi desenvolvido usando as APIs do telegram, carrefour e dialog flow, o código foi desenvolvido em NodeJS. Esse bot teve como base o ChatbotFit do Carlos Victor da Digital Innovation One.
+  O carrefour local é um bot do telegram que a partir do compartilhamento da localização do usuário, o mesmo retorna o carrefour aberto mais próximo da sua localização atual em um raio de até 15 km. O bot foi desenvolvido usando as APIs do telegram, carrefour e dialog flow, o código foi escrito em JavaScript. Esse bot teve como base o ChatbotFit do Carlos Victor da Digital Innovation One.
 
 ## Getting Started
   Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
@@ -52,3 +52,21 @@ npm start
 ````
 
 Pronto o seu bot está em execução!!!
+
+## Chatbot em execução
+
+### 1. Quando o bot encontra um carrefour aberto próximo da sua localização
+
+![picasion com_b8966991382635a538d2ebcad8166af3](https://user-images.githubusercontent.com/66270338/89128316-463bdf80-d4cb-11ea-9497-1acea0ea6154.gif)
+
+### 2. Quando o bot não acha nenhum carrefour aberto próximo da sua localização
+
+![botnacha](https://user-images.githubusercontent.com/66270338/89127976-7b92fe00-d4c8-11ea-9ae3-d8a6f0259fb8.gif)
+
+### 3. Quando ocorre um erro de conexão a API do carrefour
+
+![erronoservidordedados](https://user-images.githubusercontent.com/66270338/89128101-8ef29900-d4c9-11ea-99bf-96b523d1bf18.gif)
+
+## Author
+
+* **João Carlos**
