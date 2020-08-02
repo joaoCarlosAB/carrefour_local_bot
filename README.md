@@ -51,4 +51,4 @@ No fim da da configuração o seu arquivo .env deve está assim:
 npm start
 ````
 
-Pronto o seu bot está iniciado!!!
+Pronto o seu bot está em execução!!!
